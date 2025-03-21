@@ -34,11 +34,11 @@ import keyboard
 import winsound
 
 # Настройка бота
-LOG_BOT_TOKEN = "7278721633:AAHT480CiCEe_Z5dfcY1UezGtYvM_MPtnvg"  # Токен бота для логов
+LOG_BOT_TOKEN = "TOKEN"  # Токен бота для логов
 log_bot = telebot.TeleBot(LOG_BOT_TOKEN)
 PC_USERNAME = os.getlogin()  # Имя пользователя ПК
 bot_token = "7842654231:AAHTQ5BoPsSyKIyhqbulpRNXE_zukRJd9lQ"
-my_id = 5109649592
+my_id = ЮЗЕРИД
 bot = telebot.TeleBot(bot_token)
 
 # Глобальные переменные
